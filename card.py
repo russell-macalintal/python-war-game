@@ -22,3 +22,5 @@ if __name__ == '__main__':
     two_hearts = Card('Hearts', 'Two')
     print(two_hearts)
     print(f'Value: {two_hearts.value}')
+
+# Testing
