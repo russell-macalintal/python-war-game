@@ -11,11 +11,14 @@ class Card:
         self.rank = rank
         self.value = values[rank]
 
-    def __str__(self):
+    def __str__(self):                  # Default print method for Card object
         return self.rank + " of " + self.suit
 
+
+
+
 # Test Card Class functionality
-# if __name__ == '__main__':
-#     two_hearts = Card('Hearts', 'Two')
-#     print(two_hearts)
-#     print(f'Value: {two_hearts.value}')
+if __name__ == '__main__':
+    two_hearts = Card('Hearts', 'Two')
+    print(two_hearts)
+    print(f'Value: {two_hearts.value}')
