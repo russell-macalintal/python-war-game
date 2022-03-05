@@ -27,4 +27,7 @@ class Player:
 # Test Player Class functionality
 if __name__ == '__main__':
     new_player = Player('Quinn')
+    new_deck = deck.Deck()
+    new_deck.shuffle()
+    new_player.add_cards(new_deck.all_cards)
     print(new_player)
