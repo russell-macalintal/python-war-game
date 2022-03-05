@@ -1,4 +1,3 @@
-import card             # Import card.py file
 import deck             # Import deck.py file
 
 class Player:
